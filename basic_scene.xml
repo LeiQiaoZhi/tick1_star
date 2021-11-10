@@ -1,0 +1,12 @@
+<scene>
+    <ambient-light colour="#050505"/>
+    <point-light x="0" y="5" z="3.5" colour="#FF0000" intensity="50"/>
+    <point-light x="-5" y="0" z="3.5" colour="#00FF00" intensity="50"/>
+    <point-light x="0" y="-5" z="3.5" colour="#0000FF" intensity="50"/>
+    <point-light x="5" y="0" z="3.5" colour="#FFFF00" intensity="50"/>
+    <bumpy-sphere x="0.0" y="0" z="3.5" radius="0.7" colour="#FFFFFF" kS="0" bump-map="height_map_test.png"/>
+</scene>
+
+
+
+

@@ -67,6 +67,11 @@ public class Sphere extends SceneObject {
 			return new RaycastHit();
 		}else{
 			double s;
+			if(s1<0){
+				s=s2;
+			}if(s2<0){
+				s=s1;
+			}
 			if(Math.abs(s1) < Math.abs(s2)){
 				s = s1;
 			}else{
